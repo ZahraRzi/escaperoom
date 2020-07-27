@@ -1,0 +1,7 @@
+.suggestion {
+    height: 500px;
+    background-color: black;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center
+}

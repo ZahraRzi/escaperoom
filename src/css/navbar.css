@@ -1,0 +1,46 @@
+.navbar {
+    background-color:#222f3e;
+    color : white;
+    height: 50px;
+    width: 100%;
+}
+.site-title {
+    color : #7f8fa6;
+    font: bold;
+}
+.nav-item {
+    color: #7f8fa6;
+    font: bold;
+    transition: 0.3s;
+}
+.search-input {
+    border: 1px solid;
+    background-color: #222f3e;
+    color: #7f8fa6;
+    font-size: 15px;
+    padding: 5px;
+}
+.btn-navbar {
+    background-color: #222f3e;
+    border: 1px solid;
+    color: #7f8fa6;
+    height: 33px;
+    transition: 0.3s;
+}
+a:link {
+    text-decoration: none;
+}
+a:hover {
+    color :#c8d6e5;
+}
+.has-radius {
+    border-radius: 5px;
+}
+input:focus {
+    outline: none
+}
+.btn-navbar:hover {
+    color: #222f3e;
+    background-color: #c8d6e5;
+    font: bold;
+}
