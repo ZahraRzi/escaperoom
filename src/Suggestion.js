@@ -2,6 +2,7 @@ import React from "react";
 import "./css/suggestion.css";
 import Button from "./components/Button";
 import { Container, Row, Col } from "reactstrap";
+import { FaRedRiver } from 'react-icons/fa';
 
 export default function Suggestion() {
   return (
