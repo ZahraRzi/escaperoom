@@ -1,0 +1,21 @@
+.sug-button {
+  position: absolute;
+  height: 50px;
+  width: 100%;
+  display: flex;
+  align-self: flex-end;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.my-button {
+  border: none;
+  padding: 10px;
+  background-color: #eee;
+  border-radius: 4px;
+  transition: all .3s;
+}
+
+.my-button:hover {
+    opacity: .7;
+}

@@ -1,27 +1,33 @@
-import React from 'react';
-import './css/suggestion.css'
-import { Container, Row, Col, Button } from 'reactstrap'
+import React from "react";
+import "./css/suggestion.css";
+import Button from "./components/Button";
+import { Container, Row, Col } from "reactstrap";
 
 export default function Suggestion() {
-    return (
-        <Container>
-            <Row className='mx-auto'>
-                <Col lg={5} sm={12}>
-                    <div className='suggestion'>
-                        <img src="/img/kaboos.jpg" className="img-fluid h-100 d-flex align-items-center" />
-                    </div>
-                    
-                    
-                </Col>
-                <Col lg={2} sm={0}>
-                </Col>
+  return (
+    <Container>
+      <Row className="mx-auto">
+        <Col lg={5} sm={12}>
+          <div className="suggestion">
+            <img
+              src="/img/kaboos.jpg"
+              className="img-fluid h-100 d-flex align-items-center"
+            />
+            <div className="sug-button d-flex align-items-center justify-content-around">
+              <Button children="Submit" className="w-25" />
+              <Button children="Submit" className="w-25" />
+            </div>
+          </div>
+        </Col>
 
-                <Col lg={5} sm={12}>
-                    <div className='suggestion'>
-                        <img src="/img/13th-night.jpg" className="img-fluid h-100" />
-                    </div>
-                </Col>
-            </Row>
-        </Container>
-    )
+        <Col lg={2} sm={0}></Col>
+
+        <Col lg={5} sm={12}>
+          <div className="suggestion">
+            <img src="/img/13th-night.jpg" className="img-fluid h-100" />
+          </div>
+        </Col>
+      </Row>
+    </Container>
+  );
 }
