@@ -15,8 +15,8 @@ export default function Suggestion() {
               className="img-fluid h-100 d-flex align-items-center"
             />
             <div className="sug-button d-flex align-items-center justify-content-around">
-              <Button children="Submit" className="w-25" />
-              <Button children="Submit" className="w-25" />
+              <Button children="Reserve" className="w-25" reverse iconName="CheckSquare" />
+              <Button children="Details" className="w-25" />
             </div>
           </div>
         </Col>
