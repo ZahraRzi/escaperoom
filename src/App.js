@@ -4,7 +4,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Navbar from "./components/Navbar";
 import Suggestion from "./components/Suggestion";
 import Card from "./components/Card";
-import Counter from "./components/Counter"
+import SelectedGames2 from "./components/SelectedGames2";
 
 function App() {
   return (
@@ -12,7 +12,7 @@ function App() {
       <Navbar />
       <Suggestion />
       <Card color="dark" hasBorder borderColor="warning" hasShadow hasRadius />
-      <Counter />
+      <SelectedGames2 />
     </div>
   );
 }

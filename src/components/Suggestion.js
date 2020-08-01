@@ -13,6 +13,7 @@ export default function Suggestion() {
             <img
               src="/img/kaboos.jpg"
               className="img-fluid h-100 d-flex align-items-center"
+              alt="kaboos"
             />
             <div className="sug-button d-flex align-items-center justify-content-around">
               <Button
@@ -30,7 +31,7 @@ export default function Suggestion() {
 
         <Col lg={5} sm={12}>
           <div className="suggestion">
-            <img src="/img/13th-night.jpg" className="img-fluid h-100" />
+            <img src="/img/13th-night.jpg" className="img-fluid h-100" alt="S13th night"/>
           </div>
         </Col>
       </Row>
